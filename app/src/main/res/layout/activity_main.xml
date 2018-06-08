@@ -8,12 +8,13 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:gravity="center"
-        android:textColor="#ffff"
-        android:background="@drawable/drawable_shape"
-        android:layout_centerInParent="true"
         android:text="Shape Drawable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
+    <ImageView
+        android:src="@drawable/drawable_clip"
+        android:layout_centerInParent="true"
+        android:id="@+id/imageviewclipdrawable"
+        android:layout_width="250dp"
+        android:layout_height="250dp" />
 </RelativeLayout>
