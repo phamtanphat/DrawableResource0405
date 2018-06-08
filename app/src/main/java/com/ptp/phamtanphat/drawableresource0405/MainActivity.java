@@ -15,8 +15,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         imgClipDrawable = findViewById(R.id.imageviewclipdrawable);
 
+        //Cach 1 : Set level thong file drawable
         final ClipDrawable clipDrawable = (ClipDrawable) imgClipDrawable.getDrawable();
 
+        //Cach 2 : Set level truc tiep thong thuoc tinh setImageLevel();
 //        imgClipDrawable.setImageLevel();
 
         imgClipDrawable.setOnClickListener(new View.OnClickListener() {
