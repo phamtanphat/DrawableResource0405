@@ -8,13 +8,21 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textviewdrawableshape"
         android:text="Shape Drawable"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
     <ImageView
         android:src="@drawable/drawable_clip"
-        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/textviewdrawableshape"
         android:id="@+id/imageviewclipdrawable"
-        android:layout_width="250dp"
-        android:layout_height="250dp" />
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <Button
+        android:background="@drawable/drawable_statelist"
+        android:id="@+id/buttondrawablestatelist"
+        android:layout_centerInParent="true"
+        android:text="Drawable State List"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 </RelativeLayout>
