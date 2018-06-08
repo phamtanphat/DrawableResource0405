@@ -21,8 +21,13 @@
     <Button
         android:background="@drawable/drawable_statelist"
         android:id="@+id/buttondrawablestatelist"
-        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/imageviewclipdrawable"
         android:text="Drawable State List"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_centerInParent="true"
+        android:id="@+id/imageviewLayerList"
+        android:layout_width="300dp"
+        android:layout_height="300dp" />
 </RelativeLayout>
