@@ -8,7 +8,9 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:background="#46f72100"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:background="@drawable/drawable_shape"
         android:layout_centerInParent="true"
         android:text="Shape Drawable"
         android:layout_width="wrap_content"
